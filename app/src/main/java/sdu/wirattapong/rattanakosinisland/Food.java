@@ -13,7 +13,6 @@ public class Food extends AppCompatActivity {
         setContentView(R.layout.activity_food);
     }
     public void onClickBack (View view) {
-        Intent intent = new Intent(Food.this, MainActivity.class);
-        startActivity(intent);
+        finish();
     }
 }

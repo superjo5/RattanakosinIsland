@@ -5,4 +5,6 @@
     <string name="tour">สถานที่ท่องเที่ยวเชิงวัฒนธรรม</string>
     <string name="food">ร้านอาหารขึ้นชื่อข้างทาง(street food)</string>
     <string name="back">Back</string>
+    <string name="watparkaw">วัดพระศรีรัตนศาสดาราม (วัดพระแก้ว)</string>
+    <string name="watpho">วัดพระเชตุพนวิมลมังคลราม (วัดโพธิ์)</string>
 </resources>
