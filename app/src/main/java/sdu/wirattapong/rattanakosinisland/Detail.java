@@ -22,8 +22,7 @@ public class Detail extends AppCompatActivity {
         //รับข้อมูลจาก Main Activity มาแสดงผลบน Detail
         titleTextView.setText(getIntent().getStringExtra("Title"));
         DetailTextView.setText(getIntent().getStringExtra("Detail"));
-        imageView.setImageResource(getIntent().getIntExtra("Image",R.drawable.img1));
-
+        imageView.setImageResource(getIntent().getIntExtra("Image",R.drawable.img_1));
 
 
 

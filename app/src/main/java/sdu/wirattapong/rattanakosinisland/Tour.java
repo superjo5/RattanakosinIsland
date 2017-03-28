@@ -10,9 +10,9 @@ import android.widget.ListView;
 public class Tour extends AppCompatActivity {
 
     ListView listView;
-    private int[] ints = new int[]{R.drawable.img10, R.drawable.tiger, R.drawable.img12,
-            R.drawable.tiger, R.drawable.img14, R.drawable.tiger, R.drawable.img16,
-            R.drawable.tiger};
+    private int[] ints = new int[]{R.drawable.img_1, R.drawable.img_2, R.drawable.img_3,
+            R.drawable.img_4, R.drawable.img_5, R.drawable.img_6, R.drawable.img_7,
+            R.drawable.img_8, R.drawable.img_9};
 
     private String[] titleStrings, detailStrings, shortString;
 

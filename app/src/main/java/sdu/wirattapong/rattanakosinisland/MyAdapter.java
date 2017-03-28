@@ -28,7 +28,7 @@ public class MyAdapter extends BaseAdapter{
 
     @Override
     public int getCount() {
-        return 0;
+        return ints.length;
     }
 
     @Override
@@ -43,6 +43,7 @@ public class MyAdapter extends BaseAdapter{
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
+
         LayoutInflater layoutInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         View view = layoutInflater.inflate(R.layout.my_listview,parent,false);
 
