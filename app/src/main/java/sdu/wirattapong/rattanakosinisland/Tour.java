@@ -10,9 +10,9 @@ import android.widget.ListView;
 public class Tour extends AppCompatActivity {
 
     ListView listView;
-    private int[] ints = new int[]{R.drawable.img_1, R.drawable.img_2, R.drawable.img_3,
-            R.drawable.img_4, R.drawable.img_5, R.drawable.img_6, R.drawable.img_7,
-            R.drawable.img_8, R.drawable.img_9};
+    private int[] ints = new int[]{R.drawable.img1, R.drawable.img2, R.drawable.img3,
+            R.drawable.img4, R.drawable.img5, R.drawable.img6, R.drawable.img7,
+            R.drawable.img8, R.drawable.img9};
 
     private String[] titleStrings, detailStrings, shortString;
 
@@ -30,7 +30,7 @@ public class Tour extends AppCompatActivity {
         //SubString detailString ตัดคำใน detail string เพื่อไม่ให้เกิน 30 Character
         shortString = new String[detailStrings.length]; //จองพื้นที่ในหน่วยความจำตัวแปร shortString
         for (int i=0; i < detailStrings.length; i++) {
-            shortString[i] = detailStrings[i].substring(0, 29) + "...";
+            shortString[i] = detailStrings[i].substring(0, 50) + "...";
 
         } //end for
 
