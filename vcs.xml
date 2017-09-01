@@ -6,6 +6,10 @@
           <option name="url" value="https://github.com/superjo5/RattanakosinIsland_nn.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/superjo5/RattanakosinIsland.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="D:\MyFirstapp-master" />
